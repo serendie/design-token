@@ -1,6 +1,6 @@
 # Design Token
 
-[![GitHub](https://img.shields.io/github/license/serendie/serendie?style=flat)](https://github.com/serendie/serendie/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/serendie/design-token?style=flat)](https://github.com/serendie/design-token/blob/main/LICENSE)
 [![NPM Version](https://img.shields.io/npm/v/%40serendie%2Fdesign-token)](https://www.npmjs.com/package/@serendie/design-token)
 
 [デザイントークン](https://serendie.design/foundations/design-tokens/)はSerendie Design Systemを構成する最小単位です。コードベースとデザイン(Figma)でデザイントークンを共有することで、**Single Source of Truth**を実現することを念頭において設計されています。
@@ -59,7 +59,7 @@ Serendie Design Systemには5つのカラーテーマがあり、デザイント
 
 ## ビルド
 
-[`@serendie/style-dictionary-formatter`](https://github.com/serendie/serendie/tree/main/style-dictionary-formatter)によってデザイントークンのJSONファイルを各プラットフォームに合わせて加工します。成果物は `/dist` に配置され、Serendie UI から利用されます。
+[`@serendie/style-dictionary-formatter`](https://github.com/serendie/style-dictionary-formatter/tree/main)によってデザイントークンのJSONファイルを各プラットフォームに合わせて加工します。成果物は `/dist` に配置され、Serendie UI から利用されます。
 
 ```
 npm run build
@@ -73,7 +73,7 @@ npm run build
 npm run sync-json-to-figma
 ```
 
-なお、`/tokens`に変更が入るとGitHub Actionsにて[自動で実行](https://github.com/serendie/serendie/blob/main/.github/workflows/sync-tokens-to-figma.yml)されます。
+なお、`/tokens`に変更が入るとGitHub Actionsにて[自動で実行](https://github.com/serendie/design-token/blob/main/.github/workflows/sync-tokens-to-figma.yml)されます。
 
 > [!WARNING]
 > この仕組みは三菱電機社内向けです。Figma REST APIを利用しており、Figmaのエンタープライズプラン契約が必要になります。
