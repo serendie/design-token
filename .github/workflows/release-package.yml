@@ -32,6 +32,8 @@ jobs:
         run: |
           git config --local user.email "github-actions@github.com"
           git config --local user.name "GitHub Actions"
+      - name: Setup .npmrc
+        run: cp ./.npmrc.example ./.npmrc
       - run: npm ci
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
