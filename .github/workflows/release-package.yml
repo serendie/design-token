@@ -9,8 +9,10 @@ on:
 jobs:
   release:
     if: |
-        github.event.issue.pull_request &&
-        github.event.issue.pull_request.base.ref == 'release'
+        PR_NUMBER=$(jq -r ".issue.number" "$GITHUB_EVENT_PATH")
+        PR_DETAILS=$(gh pr view "$PR_NUMBER" --json baseRefName)
+        BASE_BRANCH=$(echo "$PR_DETAILS" | jq -r '.baseRefName')
+        BASE_BRANCH == 'release'
     runs-on: ubuntu-latest
     permissions:
       contents: write
