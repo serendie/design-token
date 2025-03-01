@@ -6,6 +6,7 @@ on:
 
 jobs:
   release:
+    if: ${{ github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,7 +22,7 @@ jobs:
           PR_NUMBER=$(jq -r ".issue.number" "$GITHUB_EVENT_PATH")
           PR_DETAILS=$(gh pr view "$PR_NUMBER" --json baseRefName)
           BASE_BRANCH=$(echo "$PR_DETAILS" | jq -r '.baseRefName')
-          if "$BASE_BRANCH" != 'release'
+          if [[ "$BASE_BRANCH" != "release" ]]; then
             exit 0
           fi
         env:
