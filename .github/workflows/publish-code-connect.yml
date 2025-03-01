@@ -1,17 +1,8 @@
 name: Figma Code Connect
 
 on:
-  pull_request_review:
-    types: [submitted]
-    branches:
-      - main
-    paths:
-      - "ui/src/**/*.stories.tsx"
-      - ".github/workflows/publish-code-connect.yml"
-  pull_request:
-    types: [closed]
-    branches:
-      - main
+  push:
+    branches: [main]
     paths:
       - "ui/src/**/*.stories.tsx"
       - ".github/workflows/publish-code-connect.yml"

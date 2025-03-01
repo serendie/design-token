@@ -1,17 +1,8 @@
 name: Design Tokens to Figma
 
 on:
-  pull_request_review:
-    types: [submitted]
-    branches:
-      - main
-    paths:
-      - "design-tokens/tokens/**"
-      - ".github/workflows/sync-tokens-to-figma.yml"
-  pull_request:
-    types: [closed]
-    branches:
-      - main
+  push:
+    branches: [main]
     paths:
       - "design-tokens/tokens/**"
       - ".github/workflows/sync-tokens-to-figma.yml"
