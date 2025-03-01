@@ -1,4 +1,4 @@
-name: Release package
+name: Release package by comment
 
 on:
   issue_comment:
@@ -12,23 +12,28 @@ jobs:
       packages: write
       pull-requests: write
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+      - name: Check base branch is release
+        run: |
+          PR_NUMBER=$(jq -r ".issue.number" "$GITHUB_EVENT_PATH")
+          PR_DETAILS=$(gh pr view "$PR_NUMBER" --json baseRefName)
+          BASE_BRANCH=$(echo "$PR_DETAILS" | jq -r '.baseRefName')
+          if "$BASE_BRANCH" != 'release'
+            exit 0
+          fi
+        env:
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Check increment comment
         run: |
-          IS_PR="${{ github.event.issue.pull_request != null }}"
-          if "${IS_PR}"
-            exit 1
-          fi
-
           IS_VALID_COMMENT=${{ contains(fromJson('["major", "minor", "patch"]'), github.event.comment.body) }}
           if "${IS_VALID_COMMENT}"
             exit 1
           fi
 
           echo "INCREMENT=${{github.event.comment.body}}}" >> $GITHUB_ENV
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ssh-key: ${{ secrets.DEPLOY_KEY }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
