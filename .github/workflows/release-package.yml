@@ -1,25 +1,30 @@
 name: Release package
 
 on:
-  workflow_dispatch:
-    inputs:
-      increment:
-        description: "Increment"
-        required: true
-        default: "patch"
-        type: choice
-        options:
-          - major
-          - minor
-          - patch
+  issue_comment:
+    types: [created]
 
 jobs:
   release:
     runs-on: ubuntu-latest
     permissions:
-      packages: write
       contents: write
+      packages: write
+      pull-requests: write
     steps:
+      - name: Check increment comment
+        run: |
+          IS_PR="${{ github.event.issue.pull_request != null }}"
+          if "${IS_PR}"
+            exit 1
+          fi
+
+          IS_VALID_COMMENT=${{ contains(fromJson('["major", "minor", "patch"]'), github.event.comment.body) }}
+          if "${IS_VALID_COMMENT}"
+            exit 1
+          fi
+
+          echo "INCREMENT=${{github.event.comment.body}}}" >> $GITHUB_ENV
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -38,7 +43,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Release
-        run: npm run release --ci --increment ${{ github.event.inputs.increment }}
+        run: npm run release --ci --increment ${{ env.INCREMENT }}
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+      - name: Merge Pull Request
+        run: |
+          PR_NUMBER=$(jq -r ".issue.number" "$GITHUB_EVENT_PATH")
+          gh pr merge "$PR_NUMBER" --merge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
