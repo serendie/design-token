@@ -1,11 +1,16 @@
-name: Release package
+name: Release package by comment
 
 on:
   issue_comment:
     types: [created]
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   release:
+    if: |
+        github.event.issue.pull_request &&
+        github.event.issue.pull_request.base.ref == 'release'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,11 +19,6 @@ jobs:
     steps:
       - name: Check increment comment
         run: |
-          IS_PR="${{ github.event.issue.pull_request != null }}"
-          if "${IS_PR}"
-            exit 1
-          fi
-
           IS_VALID_COMMENT=${{ contains(fromJson('["major", "minor", "patch"]'), github.event.comment.body) }}
           if "${IS_VALID_COMMENT}"
             exit 1
