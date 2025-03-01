@@ -29,12 +29,13 @@ jobs:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Check increment comment
         run: |
-          IS_VALID_COMMENT=${{ contains(fromJson('["major", "minor", "patch"]'), github.event.comment.body) }}
-          if "${IS_VALID_COMMENT}"
+          if [[ "$IS_VALID_COMMENT" != "true" ]]; then
+            echo "❌ Invalid comment: '${{ github.event.comment.body }}'"
             exit 1
           fi
 
-          echo "INCREMENT=${{github.event.comment.body}}}" >> $GITHUB_ENV
+          echo "✅ Valid comment detected: '${{ github.event.comment.body }}'"
+          echo "INCREMENT=${{ github.event.comment.body }}" >> $GITHUB_ENV
       - uses: actions/setup-node@v4
         with:
           node-version: 22
