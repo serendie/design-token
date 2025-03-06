@@ -26,7 +26,7 @@ jobs:
           BASE_BRANCH=$(echo "$PR_DETAILS" | jq -r '.baseRefName')
           if [[ "$BASE_BRANCH" != "release" ]]; then
             echo "[skip] base branch is '$BASE_BRANCH'"
-            exit 0
+            exit 78
           fi
 
           echo "base branch is '$BASE_BRANCH'"
