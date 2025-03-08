@@ -1,0 +1,13 @@
+name: Release pull request canbe merge by GitHub Actions
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - release
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 1
