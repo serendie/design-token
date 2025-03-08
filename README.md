@@ -77,3 +77,5 @@ npm run sync-json-to-figma
 
 > [!WARNING]
 > この仕組みは三菱電機社内向けです。Figma REST APIを利用しており、Figmaのエンタープライズプラン契約が必要になります。
+
+test
