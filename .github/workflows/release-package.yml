@@ -1,12 +1,15 @@
 name: Release package by comment
 
 on:
-  issue_comment:
-    types: [created]
+  pull_request:
+    types:
+      - labeled
 
 jobs:
   release:
-    if: ${{ github.event.issue.pull_request }}
+    if: >-
+      contains('release[major] release[minor] release[patch]', github.event.label.name) &&
+      github.event.pull_request.base.ref == 'release'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -17,43 +20,6 @@ jobs:
         with:
           fetch-depth: 0
           ssh-key: ${{ secrets.DEPLOY_KEY }}
-      - name: Check base branch is release
-        env:
-          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        run: |
-          PR_NUMBER=$(jq -r ".issue.number" "$GITHUB_EVENT_PATH")
-          PR_DETAILS=$(gh pr view "$PR_NUMBER" --json baseRefName)
-          BASE_BRANCH=$(echo "$PR_DETAILS" | jq -r '.baseRefName')
-          if [[ "$BASE_BRANCH" != "release" ]]; then
-            echo "[skip] base branch is '$BASE_BRANCH'"
-            exit 78
-          fi
-
-          echo "base branch is '$BASE_BRANCH'"
-      - name: Check increment comment
-        env:
-          COMMENT: ${{ github.event.comment.body }}
-          IS_VALID_COMMENT: ${{ contains(fromJson('["major", "minor", "patch"]'), github.event.comment.body) }}
-        run: |
-          if [[ "$IS_VALID_COMMENT" != "true" ]]; then
-            echo "❌ Invalid comment: '$COMMENT'"
-            exit 1
-          fi
-
-          echo "✅ Valid comment detected: '$COMMENT'"
-          echo "INCREMENT=$COMMENT" >> $GITHUB_ENV
-      - name: Add Reaction to Comment
-        run: |
-          COMMENT_ID=${{ github.event.comment.id }}
-          REACTION_TYPE="+1"
-
-          gh api \
-            -X POST \
-            -H "Accept: application/vnd.github.v3+json" \
-            "/repos/${{ github.repository }}/issues/comments/$COMMENT_ID/reactions" \
-            -f content="$REACTION_TYPE"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -67,14 +33,17 @@ jobs:
       - run: npm ci
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Extract release type
+        run: |
+          RELEASE_TYPE=$(echo "${{ github.event.label.name }}" | sed -E 's/release\[([a-z]+)\]/\1/')
+          echo "RELEASE_TYPE=${RELEASE_TYPE}" >> $GITHUB_ENV
       - name: Release
-        run: npm run release --ci --increment ${{ env.INCREMENT }}
+        run: npm run release --ci --increment $RELEASE_TYPE
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
       - name: Merge Pull Request
         run: |
-          PR_NUMBER=$(jq -r ".issue.number" "$GITHUB_EVENT_PATH")
-          gh pr merge "$PR_NUMBER" --merge
+          gh pr merge ${{ github.event.pull_request.number }} --merge
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
