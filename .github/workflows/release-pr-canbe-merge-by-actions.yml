@@ -7,7 +7,7 @@ on:
       - release
 
 jobs:
-  run:
+  release-pr-canbe-merge-by-github-actions:
     runs-on: ubuntu-latest
     steps:
       - run: exit 1
