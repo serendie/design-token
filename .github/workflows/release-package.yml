@@ -25,7 +25,6 @@ jobs:
         with:
           node-version: 22
       - name: Setup Git User
-        shell: bash
         run: |
           git config --local user.email "github-actions@github.com"
           git config --local user.name "GitHub Actions"
@@ -39,12 +38,15 @@ jobs:
           RELEASE_TYPE=$(echo "${{ github.event.label.name }}" | sed -E 's/release\[([a-z]+)\]/\1/')
           echo "RELEASE_TYPE=${RELEASE_TYPE}" >> $GITHUB_ENV
       - name: Release
-        run: npm run release --ci --increment $RELEASE_TYPE
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+        run: npm run release --ci --increment $RELEASE_TYPE
+      - name: make pull-request to ready
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr ready ${{ github.event.pull_request.number }}
       - name: Merge Pull Request
-        run: |
-          gh pr merge ${{ github.event.pull_request.number }} --merge --admin
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge ${{ github.event.pull_request.number }} --merge --admin
