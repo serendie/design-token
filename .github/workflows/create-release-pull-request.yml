@@ -19,4 +19,18 @@ jobs:
           GIT_PR_RELEASE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_PR_RELEASE_BRANCH_PRODUCTION: release
           GIT_PR_RELEASE_BRANCH_STAGING: main
+          GIT_PR_RELEASE_TEMPLATE: .github/templates/git-pr-release.erb
           TZ: Asia/Tokyo
+      - name: make pull-request to draft
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_JSON=$(gh api \
+            -H "Accept: application/vnd.github.v3+json" \
+            "/repos/${{ github.repository }}/pulls?state=open&base=release&head=${{ github.repository }}:main")
+          PR_NUMBER=$(echo "$PR_JSON" | jq -r '.[0].number')
+          gh api \
+            --method PATCH \
+            -H "Accept: application/vnd.github.v3+json" \
+            /repos/${{ github.repository }}/pulls/$PR_NUMBER \
+            -f draft=true
