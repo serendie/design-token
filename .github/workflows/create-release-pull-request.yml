@@ -27,7 +27,7 @@ jobs:
         run: |
           PR_JSON=$(gh api \
             -H "Accept: application/vnd.github.v3+json" \
-            "/repos/${{ github.repository }}/pulls?state=open&base=release&head=${{ github.repository }}:main")
+            "/repos/${{ github.repository }}/pulls?state=open&base=release&head=main")
           echo $PR_JSON
 
           PR_NUMBER=$(echo "$PR_JSON" | jq -r '.[0].number')
