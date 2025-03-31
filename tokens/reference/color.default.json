@@ -215,11 +215,11 @@
               "$type": "color"
             },
             "300": {
-              "$value": "#FFE600",
+              "$value": "#EFD616",
               "$type": "color"
             },
             "400": {
-              "$value": "#EDD202",
+              "$value": "#D8BF00",
               "$type": "color"
             },
             "500": {
@@ -253,7 +253,7 @@
               "$type": "color"
             },
             "200": {
-              "$value": "#AEEAD5",
+              "$value": "#B1EAD7",
               "$type": "color"
             },
             "300": {
