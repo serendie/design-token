@@ -358,19 +358,6 @@
               }
             }
           },
-          "inversePrimary": {
-            "$type": "color",
-            "$value": "{sd.reference.color.scale.blue.100}",
-            "$description": "inverseSurface上でのtint colorとして使う",
-            "$extensions": {
-              "com.figma": {
-                "codeSyntax": {
-                  "WEB": "'sd.system.color.impression.inversePrimary'"
-                },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL"]
-              }
-            }
-          },
           "outline": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.gray.300}",
