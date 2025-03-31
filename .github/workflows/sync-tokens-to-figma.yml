@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "design-tokens/tokens/**"
+      - "tokens/**"
       - ".github/workflows/sync-tokens-to-figma.yml"
 
 jobs:
