@@ -6,11 +6,17 @@ on:
     paths:
       - "tokens/**"
       - ".github/workflows/sync-tokens-to-figma.yml"
+  pull_request:
+    types: [closed]
+    branches: [main]
+    paths:
+      - "tokens/**"
+      - ".github/workflows/sync-tokens-to-figma.yml"
 
 jobs:
   sync-figma-variables:
     runs-on: ubuntu-latest
-    if: (github.event.review.state == 'approved') || (github.event.pull_request.merged == true)
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     steps:
       - name: Install Node.js
         uses: actions/setup-node@v4
