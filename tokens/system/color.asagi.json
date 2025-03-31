@@ -424,6 +424,19 @@
               }
             }
           },
+          "selected": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.transparency.bl2}",
+            "$description": "selected状態のオブジェクトに重ねわせる半透明色",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.interaction.selected'"
+                },
+                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+              }
+            }
+          },
           "selectedSurface": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.green.200}",
