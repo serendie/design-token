@@ -290,6 +290,19 @@
                 "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
+          },
+          "inversePrimary": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.purple.100}",
+            "$description": "inverseSurface上でのtint colorとして使う",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.inversePrimary'"
+                },
+                "scopes": ["FRAME_FILL", "SHAPE_FILL"]
+              }
+            }
           }
         },
         "component": {
