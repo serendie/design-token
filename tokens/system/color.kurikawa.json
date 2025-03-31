@@ -203,7 +203,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.noticeContainerVariant'"
                 },
-                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+                "scopes": ["FRAME_FILL", "SHAPE_FILL"]
               }
             }
           },
@@ -275,7 +275,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.negativeContainerVariant'"
                 },
-                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+                "scopes": ["FRAME_FILL", "SHAPE_FILL"]
               }
             }
           },
@@ -347,7 +347,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.positiveContainerVariant'"
                 },
-                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+                "scopes": ["FRAME_FILL", "SHAPE_FILL"]
               }
             }
           },
