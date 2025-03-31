@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "design-tokens/tokens/**"
+      - "tokens/**"
       - ".github/workflows/sync-tokens-to-figma.yml"
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
         run: npm install
 
       - name: Sync json to Figma file
-        run: npm run ci:sync-json-to-figma -w design-tokens
+        run: npm run ci:sync-json-to-figma
         env:
           FILE_KEY: ${{ secrets.SYNC_FIGMA_FILE_KEY }}
           PERSONAL_ACCESS_TOKEN: ${{ secrets.SYNC_FIGMA_PERSONAL_ACCESS_TOKEN }}
