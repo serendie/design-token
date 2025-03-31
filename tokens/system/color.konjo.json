@@ -195,6 +195,30 @@
               }
             }
           },
+          "noticeContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.yellow.100}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.noticeContainerVariant'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
+          "onNoticeContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.black.1000}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.onNoticeContainerVariant'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
           "negative": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.red.600}",
@@ -243,6 +267,30 @@
               }
             }
           },
+          "negativeContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.red.100}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.negativeContainerVariant'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
+          "onNegativeContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.red.600}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.onNegativeContainerVariant'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
           "positive": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.green.500}",
@@ -286,6 +334,30 @@
               "com.figma": {
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onPositiveContainer'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
+          "positiveContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.green.100}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.positiveContainerVariant'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
+          "onPositiveContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.black.1000}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.onPositiveContainerVariant'"
                 },
                 "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
