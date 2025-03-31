@@ -385,7 +385,7 @@
           },
           "scrim": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.20}",
+            "$value": "{sd.reference.color.scale.transparency.bl20}",
             "$description": "modalやdrawerの背景色として使用する色",
             "$extensions": {
               "com.figma": {
@@ -439,7 +439,7 @@
           },
           "hovered": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.20}",
+            "$value": "{sd.reference.color.scale.transparency.bl20}",
             "$description": "hover状態のオブジェクトに重ねわせる半透明色",
             "$extensions": {
               "com.figma": {
@@ -452,7 +452,7 @@
           },
           "hoveredVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.5}",
+            "$value": "{sd.reference.color.scale.transparency.bl5}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -464,7 +464,7 @@
           },
           "hoveredOnPrimary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.60}",
+            "$value": "{sd.reference.color.scale.transparency.wh60}",
             "$description": "primaryなど有彩色を使用したhover状態のオブジェクトに重ね合わせる半透明色",
             "$extensions": {
               "com.figma": {
