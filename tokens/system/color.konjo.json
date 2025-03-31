@@ -195,6 +195,30 @@
               }
             }
           },
+          "noticeContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.yellow.100}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.noticeContainerVariant'"
+                },
+                "scopes": ["FRAME_FILL", "SHAPE_FILL"]
+              }
+            }
+          },
+          "onNoticeContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.black.1000}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.onNoticeContainerVariant'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
           "negative": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.red.600}",
@@ -243,6 +267,30 @@
               }
             }
           },
+          "negativeContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.red.100}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.negativeContainerVariant'"
+                },
+                "scopes": ["FRAME_FILL", "SHAPE_FILL"]
+              }
+            }
+          },
+          "onNegativeContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.red.600}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.onNegativeContainerVariant'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
           "positive": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.green.500}",
@@ -286,6 +334,30 @@
               "com.figma": {
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onPositiveContainer'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
+          "positiveContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.green.100}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.positiveContainerVariant'"
+                },
+                "scopes": ["FRAME_FILL", "SHAPE_FILL"]
+              }
+            }
+          },
+          "onPositiveContainerVariant": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.black.1000}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.impression.onPositiveContainerVariant'"
                 },
                 "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
@@ -358,6 +430,19 @@
               }
             }
           },
+          "inversePrimary": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.blue.100}",
+            "$description": "inverseSurface上でのtint colorとして使う",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.component.inversePrimary'"
+                },
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+              }
+            }
+          },
           "outline": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.gray.300}",
@@ -385,7 +470,7 @@
           },
           "scrim": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.20}",
+            "$value": "{sd.reference.color.scale.transparency.bl20}",
             "$description": "modalやdrawerの背景色として使用する色",
             "$extensions": {
               "com.figma": {
@@ -424,6 +509,19 @@
               }
             }
           },
+          "selected": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.transparency.bl2}",
+            "$description": "オブジェクトに重ね合わせてselected状態にする",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.interaction.selected'"
+                },
+                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+              }
+            }
+          },
           "selectedSurface": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.blue.300}",
@@ -439,7 +537,7 @@
           },
           "hovered": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.20}",
+            "$value": "{sd.reference.color.scale.transparency.bl20}",
             "$description": "hover状態のオブジェクトに重ねわせる半透明色",
             "$extensions": {
               "com.figma": {
@@ -452,7 +550,7 @@
           },
           "hoveredVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.5}",
+            "$value": "{sd.reference.color.scale.transparency.bl5}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -464,7 +562,7 @@
           },
           "hoveredOnPrimary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.60}",
+            "$value": "{sd.reference.color.scale.transparency.wh60}",
             "$description": "primaryなど有彩色を使用したhover状態のオブジェクトに重ね合わせる半透明色",
             "$extensions": {
               "com.figma": {
