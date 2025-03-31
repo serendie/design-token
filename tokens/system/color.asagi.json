@@ -367,7 +367,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.component.inversePrimary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
