@@ -512,7 +512,7 @@
           "selected": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.transparency.bl2}",
-            "$description": "selected状態のオブジェクトに重ねわせる半透明色",
+            "$description": "オブジェクトに重ね合わせてselected状態にする",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
