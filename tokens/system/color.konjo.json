@@ -871,6 +871,226 @@
                   }
                 }
               }
+            },
+            "multi": {
+              "01": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.blue.600}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.01'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "02": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.green.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.02'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "03": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.red.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.03'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "04": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.purple.500}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.04'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "05": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.chestnut.700}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.05'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "06": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.skyBlue.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.06'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "07": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.yellow.200}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.07'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "08": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.chestnut.600}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.08'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "09": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.pink.700}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.09'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "10": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.beige.500}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.10'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              }
+            }
+          },
+          "component": {
+            "dataLabel": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.black.1000}",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.dataLabel'"
+                  },
+                  "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"]
+                }
+              }
+            },
+            "inverseDataLabel": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.white.1000}",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.inverseDataLabel'"
+                  },
+                  "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"]
+                }
+              }
+            },
+            "scalemark": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.gray.200}",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.scalemark'"
+                  },
+                  "scopes": ["SHAPE_FILL", "STROKE_COLOR"]
+                }
+              }
+            },
+            "threshold": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.blue.500}",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.threshold'"
+                  },
+                  "scopes": ["SHAPE_FILL", "STROKE_COLOR"]
+                }
+              }
+            },
+            "chartTooltipSurface": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.transparency.bl80}",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.chartTooltipSurface'"
+                  },
+                  "scopes": ["FRAME_FILL", "SHAPE_FILL"]
+                }
+              }
+            },
+            "chartSurface": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.white.1000}",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.chartSurface'"
+                  },
+                  "scopes": ["FRAME_FILL", "SHAPE_FILL"]
+                }
+              }
+            },
+            "onChartSurface": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.gray.600}",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.onChartSurface'"
+                  },
+                  "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"]
+                }
+              }
+            },
+            "onChartSurfaceVariant": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.black.1000}",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.onChartSurfaceVariant'"
+                  },
+                  "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"]
+                }
+              }
             }
           }
         }
