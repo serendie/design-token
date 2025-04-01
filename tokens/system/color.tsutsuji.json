@@ -887,7 +887,7 @@
               },
               "02": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.green.300}",
+                "$value": "{sd.reference.color.scale.green.400}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
