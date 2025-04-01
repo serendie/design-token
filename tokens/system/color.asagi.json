@@ -11,7 +11,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.primary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -47,7 +47,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onPrimaryContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -59,7 +59,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.secondary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -95,7 +95,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onSecondaryContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -107,7 +107,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.tertiary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -143,7 +143,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onTertiaryContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -155,7 +155,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.notice'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -191,7 +191,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onNoticeContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -215,7 +215,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onNoticeContainerVariant'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -227,7 +227,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.negative'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -263,7 +263,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onNegativeContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -287,7 +287,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onNegativeContainerVariant'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -299,7 +299,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.positive'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -335,7 +335,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onPositiveContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -359,7 +359,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onPositiveContainerVariant'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           }
@@ -439,7 +439,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.component.inversePrimary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -505,7 +505,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.disabledOnSurface'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -518,7 +518,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.selected'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -531,7 +531,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.selectedSurface'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -544,7 +544,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.hovered'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -556,7 +556,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.hoveredVariant'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -569,7 +569,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.hoveredOnPrimary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           }
