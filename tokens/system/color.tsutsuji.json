@@ -11,7 +11,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.primary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -47,7 +47,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onPrimaryContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -59,7 +59,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.secondary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -95,7 +95,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onSecondaryContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -107,7 +107,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.tertiary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -143,7 +143,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onTertiaryContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -155,7 +155,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.notice'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -191,7 +191,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onNoticeContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -215,7 +215,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onNoticeContainerVariant'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -227,7 +227,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.negative'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -263,7 +263,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onNegativeContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -287,7 +287,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onNegativeContainerVariant'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -299,7 +299,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.positive'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -335,7 +335,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onPositiveContainer'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -359,7 +359,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.impression.onPositiveContainerVariant'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           }
@@ -439,7 +439,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.component.inversePrimary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -505,7 +505,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.disabledOnSurface'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -518,7 +518,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.selected'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -531,7 +531,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.selectedSurface'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -544,7 +544,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.hovered'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -556,7 +556,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.hoveredVariant'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           },
@@ -569,7 +569,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.hoveredOnPrimary'"
                 },
-                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
               }
             }
           }
@@ -585,7 +585,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.primary.01'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -597,7 +597,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.primary.02'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -609,7 +609,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.primary.03'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -621,7 +621,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.primary.04'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -633,7 +633,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.primary.05'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -645,7 +645,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.primary.06'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               }
@@ -659,7 +659,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.positive.01'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -671,7 +671,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.positive.02'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -683,7 +683,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.positive.03'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -695,7 +695,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.positive.04'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -707,7 +707,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.positive.05'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -719,7 +719,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.positive.06'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               }
@@ -733,7 +733,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.negative.01'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -745,7 +745,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.negative.02'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -757,7 +757,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.negative.03'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -769,7 +769,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.negative.04'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -781,7 +781,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.negative.05'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -793,7 +793,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.negative.06'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               }
@@ -807,7 +807,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.notice.01'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -819,7 +819,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.notice.02'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -831,7 +831,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.notice.03'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -843,7 +843,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.notice.04'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -855,7 +855,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.notice.05'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -867,7 +867,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.notice.06'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               }
@@ -881,7 +881,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.01'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -893,7 +893,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.02'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -905,7 +905,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.03'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -917,7 +917,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.04'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -929,7 +929,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.05'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -941,7 +941,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.06'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -953,7 +953,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.07'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -965,7 +965,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.08'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -977,7 +977,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.09'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               },
@@ -989,7 +989,7 @@
                     "codeSyntax": {
                       "WEB": "'sd.system.color.chart.mark.multi.10'"
                     },
-                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                    "scopes": ["ALL_FILLS", "STROKE_COLOR"]
                   }
                 }
               }
