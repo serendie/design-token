@@ -1082,7 +1082,7 @@
                   "codeSyntax": {
                     "WEB": "'sd.system.color.chart.component.onChartSurface'"
                   },
-                  "scopes": ["TEXT_FILL"]
+                  "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"]
                 }
               }
             },
@@ -1095,7 +1095,7 @@
                   "codeSyntax": {
                     "WEB": "'sd.system.color.chart.component.onChartSurfaceVariant'"
                   },
-                  "scopes": ["TEXT_FILL"]
+                  "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"]
                 }
               }
             }
