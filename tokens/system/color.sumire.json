@@ -579,7 +579,7 @@
             "primary": {
               "01": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.200}",
+                "$value": "{sd.reference.color.scale.purple.200}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -591,7 +591,7 @@
               },
               "02": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.300}",
+                "$value": "{sd.reference.color.scale.purple.300}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -603,7 +603,7 @@
               },
               "03": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.400}",
+                "$value": "{sd.reference.color.scale.purple.400}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -615,7 +615,7 @@
               },
               "04": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.500}",
+                "$value": "{sd.reference.color.scale.purple.500}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -627,7 +627,7 @@
               },
               "05": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.600}",
+                "$value": "{sd.reference.color.scale.purple.600}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -639,7 +639,7 @@
               },
               "06": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.900}",
+                "$value": "{sd.reference.color.scale.purple.900}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
