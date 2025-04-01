@@ -518,7 +518,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.selected'"
                 },
-                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
               }
             }
           },
@@ -531,7 +531,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.selectedSurface'"
                 },
-                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
               }
             }
           },
@@ -544,7 +544,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.hovered'"
                 },
-                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
               }
             }
           },
@@ -556,7 +556,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.hoveredVariant'"
                 },
-                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
               }
             }
           },
@@ -569,7 +569,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.interaction.hoveredOnPrimary'"
                 },
-                "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+                "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
               }
             }
           }
