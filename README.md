@@ -7,7 +7,7 @@
 
 ## 使い方
 
-デザイントークン(`@serendie/design-token`)は、Serendie UI(`@serendie/ui`)に同梱されますが、単独で使用することもできます。単独で使用する場合は、HTML/CSS環境など React以外でも使用できます。
+デザイントークン(`@serendie/design-token`)は、[Serendie UI](https://github.com/serendie/serendie)(`@serendie/ui`)に同梱されますが、単独で使用することもできます。単独で使用する場合は、HTML/CSS環境など React以外でも使用できます。
 最もシンプルな使い方を紹介します。
 
 ### インストール
