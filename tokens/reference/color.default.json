@@ -28,10 +28,6 @@
               "$value": "#00000033",
               "$type": "color"
             },
-            "bl80": {
-              "$value": "#000000CC",
-              "$type": "color"
-            },
             "wh60": {
               "$value": "#FFFFFF99",
               "$type": "color"
