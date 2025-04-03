@@ -996,27 +996,27 @@
             }
           },
           "component": {
-            "dataLabel": {
+            "markLabel": {
               "$type": "color",
               "$value": "{sd.reference.color.scale.black.1000}",
-              "$description": "mark上に重ね合わせる値のテキスト色。ガイドラインを参照しつつinverseDataLabelと使い分ける",
+              "$description": "mark上に重ね合わせる値のテキスト色。ガイドラインを参照しつつinverseMarkLabelと使い分ける",
               "$extensions": {
                 "com.figma": {
                   "codeSyntax": {
-                    "WEB": "'sd.system.color.chart.component.dataLabel'"
+                    "WEB": "'sd.system.color.chart.component.markLabel'"
                   },
                   "scopes": ["TEXT_FILL"]
                 }
               }
             },
-            "inverseDataLabel": {
+            "inverseMarkLabel": {
               "$type": "color",
               "$value": "{sd.reference.color.scale.white.1000}",
-              "$description": "mark上に重ね合わせる値のテキスト色。ガイドラインを参照しつつdataLabelと使い分ける",
+              "$description": "mark上に重ね合わせる値のテキスト色。ガイドラインを参照しつつmarkLabelと使い分ける",
               "$extensions": {
                 "com.figma": {
                   "codeSyntax": {
-                    "WEB": "'sd.system.color.chart.component.inverseDataLabel'"
+                    "WEB": "'sd.system.color.chart.component.inverseMarkLabel'"
                   },
                   "scopes": ["TEXT_FILL"]
                 }
