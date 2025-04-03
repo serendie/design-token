@@ -1048,18 +1048,6 @@
                 }
               }
             },
-            "chartTooltipSurface": {
-              "$type": "color",
-              "$value": "{sd.reference.color.scale.transparency.bl80}",
-              "$extensions": {
-                "com.figma": {
-                  "codeSyntax": {
-                    "WEB": "'sd.system.color.chart.component.chartTooltipSurface'"
-                  },
-                  "scopes": ["FRAME_FILL", "SHAPE_FILL"]
-                }
-              }
-            },
             "chartSurface": {
               "$type": "color",
               "$value": "{sd.reference.color.scale.white.1000}",
@@ -1081,19 +1069,6 @@
                 "com.figma": {
                   "codeSyntax": {
                     "WEB": "'sd.system.color.chart.component.onChartSurface'"
-                  },
-                  "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"]
-                }
-              }
-            },
-            "onChartSurfaceVariant": {
-              "$type": "color",
-              "$value": "{sd.reference.color.scale.black.1000}",
-              "$description": "チャート上のテキスト色。主にチャートタイトルに使用",
-              "$extensions": {
-                "com.figma": {
-                  "codeSyntax": {
-                    "WEB": "'sd.system.color.chart.component.onChartSurfaceVariant'"
                   },
                   "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"]
                 }
