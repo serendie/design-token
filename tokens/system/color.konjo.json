@@ -573,6 +573,508 @@
               }
             }
           }
+        },
+        "chart": {
+          "mark": {
+            "primary": {
+              "01": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.blue.200}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.primary.01'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "02": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.blue.300}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.primary.02'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "03": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.blue.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.primary.03'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "04": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.blue.500}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.primary.04'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "05": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.blue.600}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.primary.05'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "06": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.blue.900}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.primary.06'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              }
+            },
+            "positive": {
+              "01": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.green.200}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.positive.01'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "02": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.green.300}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.positive.02'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "03": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.green.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.positive.03'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "04": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.green.500}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.positive.04'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "05": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.green.600}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.positive.05'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "06": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.green.900}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.positive.06'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              }
+            },
+            "negative": {
+              "01": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.red.200}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.negative.01'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "02": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.red.300}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.negative.02'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "03": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.red.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.negative.03'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "04": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.red.500}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.negative.04'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "05": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.red.600}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.negative.05'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "06": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.red.900}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.negative.06'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              }
+            },
+            "notice": {
+              "01": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.yellow.200}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.notice.01'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "02": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.yellow.300}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.notice.02'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "03": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.yellow.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.notice.03'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "04": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.yellow.500}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.notice.04'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "05": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.yellow.600}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.notice.05'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "06": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.yellow.900}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.notice.06'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              }
+            },
+            "multi": {
+              "01": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.blue.600}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.01'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "02": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.green.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.02'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "03": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.red.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.03'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "04": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.purple.500}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.04'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "05": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.chestnut.700}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.05'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "06": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.skyBlue.400}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.06'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "07": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.yellow.200}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.07'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "08": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.chestnut.600}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.08'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "09": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.pink.700}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.09'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              },
+              "10": {
+                "$type": "color",
+                "$value": "{sd.reference.color.scale.beige.500}",
+                "$extensions": {
+                  "com.figma": {
+                    "codeSyntax": {
+                      "WEB": "'sd.system.color.chart.mark.multi.10'"
+                    },
+                    "scopes": ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"]
+                  }
+                }
+              }
+            }
+          },
+          "component": {
+            "onMarkLabel": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.black.1000}",
+              "$description": "mark上に重ね合わせる値のテキスト色。ガイドラインを参照しつつinverseOnMarkLabelと使い分ける",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.onMarkLabel'"
+                  },
+                  "scopes": ["TEXT_FILL"]
+                }
+              }
+            },
+            "inverseOnMarkLabel": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.white.1000}",
+              "$description": "mark上に重ね合わせる値のテキスト色。ガイドラインを参照しつつonMarkLabelと使い分ける",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.inverseOnMarkLabel'"
+                  },
+                  "scopes": ["TEXT_FILL"]
+                }
+              }
+            },
+            "scalemark": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.gray.200}",
+              "$description": "チャートの目盛り罫線に使用",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.scalemark'"
+                  },
+                  "scopes": ["STROKE_COLOR"]
+                }
+              }
+            },
+            "threshold": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.blue.500}",
+              "$description": "目標値や閾値を示す罫線やラベルに使用",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.threshold'"
+                  },
+                  "scopes": ["ALL_FILLS", "STROKE_COLOR"]
+                }
+              }
+            },
+            "chartSurface": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.white.1000}",
+              "$description": "チャートの背景色",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.chartSurface'"
+                  },
+                  "scopes": ["FRAME_FILL", "SHAPE_FILL"]
+                }
+              }
+            },
+            "onChartSurface": {
+              "$type": "color",
+              "$value": "{sd.reference.color.scale.gray.600}",
+              "$description": "チャート上のテキスト色。凡例や軸ラベルなどに使用",
+              "$extensions": {
+                "com.figma": {
+                  "codeSyntax": {
+                    "WEB": "'sd.system.color.chart.component.onChartSurface'"
+                  },
+                  "scopes": ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"]
+                }
+              }
+            }
+          }
         }
       }
     }
