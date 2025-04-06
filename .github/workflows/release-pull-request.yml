@@ -10,5 +10,5 @@ permissions:
 
 jobs:
   create:
-    uses: serendie/.github/.github/workflows/release-pull-request.yml@create
+    uses: serendie/.github/.github/workflows/release-pull-request.yml@main
     secrets: inherit
