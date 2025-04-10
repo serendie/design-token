@@ -4,7 +4,7 @@ import {
   customFileHeader,
 } from "@serendie/style-dictionary-formatter";
 
-registerAll();
+registerAll(StyleDictionary);
 
 StyleDictionary.extend({
   source: ["tokens/**/*.json"],
