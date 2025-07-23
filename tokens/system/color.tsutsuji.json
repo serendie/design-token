@@ -5,7 +5,7 @@
         "impression": {
           "primary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.pink.600}",
+            "$value": "{sd.reference.color.scale.pink.700}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -29,7 +29,7 @@
           },
           "primaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.pink.300}",
+            "$value": "{sd.reference.color.scale.pink.400}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -53,7 +53,7 @@
           },
           "secondary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.pink.200}",
+            "$value": "{sd.reference.color.scale.pink.300}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -77,7 +77,7 @@
           },
           "secondaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.pink.200}",
+            "$value": "{sd.reference.color.scale.pink.300}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -245,7 +245,7 @@
           },
           "negativeContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.red.200}",
+            "$value": "{sd.reference.color.scale.red.300}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -524,7 +524,7 @@
           },
           "selectedSurface": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.pink.100}",
+            "$value": "{sd.reference.color.scale.pink.200}",
             "$description": "surface色をselected状態にするときに使用 (ListItemなど)",
             "$extensions": {
               "com.figma": {

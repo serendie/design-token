@@ -5,7 +5,7 @@
         "impression": {
           "primary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.skyBlue.600}",
+            "$value": "{sd.reference.color.scale.skyBlue.700}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -29,7 +29,7 @@
           },
           "primaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.skyBlue.600}",
+            "$value": "{sd.reference.color.scale.skyBlue.700}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -53,7 +53,7 @@
           },
           "secondary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.green.200}",
+            "$value": "{sd.reference.color.scale.green.300}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -77,7 +77,7 @@
           },
           "secondaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.green.200}",
+            "$value": "{sd.reference.color.scale.green.300}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -101,7 +101,7 @@
           },
           "tertiary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.100}",
+            "$value": "{sd.reference.color.scale.gray.200}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -125,7 +125,7 @@
           },
           "tertiaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.100}",
+            "$value": "{sd.reference.color.scale.gray.200}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -524,7 +524,7 @@
           },
           "selectedSurface": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.green.200}",
+            "$value": "{sd.reference.color.scale.green.300}",
             "$description": "surface色をselected状態にするときに使用 (ListItemなど)",
             "$extensions": {
               "com.figma": {
