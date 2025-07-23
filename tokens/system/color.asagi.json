@@ -101,7 +101,7 @@
           },
           "tertiary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.200}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -125,7 +125,7 @@
           },
           "tertiaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.200}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {

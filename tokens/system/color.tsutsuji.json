@@ -29,7 +29,7 @@
           },
           "primaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.pink.400}",
+            "$value": "{sd.reference.color.scale.pink.200}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -101,7 +101,7 @@
           },
           "tertiary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.pink.1000}",
+            "$value": "{sd.reference.color.scale.pink.900}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -125,7 +125,7 @@
           },
           "tertiaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.pink.1000}",
+            "$value": "{sd.reference.color.scale.pink.900}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -524,7 +524,7 @@
           },
           "selectedSurface": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.pink.200}",
+            "$value": "{sd.reference.color.scale.pink.300}",
             "$description": "surface色をselected状態にするときに使用 (ListItemなど)",
             "$extensions": {
               "com.figma": {
