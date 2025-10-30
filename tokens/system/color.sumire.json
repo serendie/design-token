@@ -443,6 +443,18 @@
               }
             }
           },
+          "outlineBright": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.gray.200}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.component.outlineBright'"
+                },
+                "scopes": ["STROKE_COLOR", "SHAPE_FILL"]
+              }
+            }
+          },
           "outline": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.gray.300}",
@@ -452,19 +464,19 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.component.outline'"
                 },
-                "scopes": ["STROKE_COLOR"]
+                "scopes": ["STROKE_COLOR", "SHAPE_FILL"]
               }
             }
           },
-          "outlineVariant": {
+          "outlineDim": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.gray.500}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
-                  "WEB": "'sd.system.color.component.outlineVariant'"
+                  "WEB": "'sd.system.color.component.outlineDim'"
                 },
-                "scopes": ["STROKE_COLOR"]
+                "scopes": ["STROKE_COLOR", "SHAPE_FILL"]
               }
             }
           },
