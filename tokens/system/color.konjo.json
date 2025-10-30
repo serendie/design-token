@@ -452,19 +452,31 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.component.outline'"
                 },
-                "scopes": ["STROKE_COLOR"]
+                "scopes": ["STROKE_COLOR", "FILL_COLOR"]
               }
             }
           },
-          "outlineVariant": {
+          "outlineBright": {
+            "$type": "color",
+            "$value": "{sd.reference.color.scale.gray.200}",
+            "$extensions": {
+              "com.figma": {
+                "codeSyntax": {
+                  "WEB": "'sd.system.color.component.outlineBright'"
+                },
+                "scopes": ["STROKE_COLOR", "FILL_COLOR"]
+              }
+            }
+          },
+          "outlineDim": {
             "$type": "color",
             "$value": "{sd.reference.color.scale.gray.500}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
-                  "WEB": "'sd.system.color.component.outlineVariant'"
+                  "WEB": "'sd.system.color.component.outlineDim'"
                 },
-                "scopes": ["STROKE_COLOR"]
+                "scopes": ["STROKE_COLOR", "FILL_COLOR"]
               }
             }
           },
