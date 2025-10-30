@@ -452,7 +452,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.component.outline'"
                 },
-                "scopes": ["STROKE_COLOR", "FILL_COLOR"]
+                "scopes": ["STROKE_COLOR", "SHAPE_FILL"]
               }
             }
           },
@@ -464,7 +464,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.component.outlineBright'"
                 },
-                "scopes": ["STROKE_COLOR", "FILL_COLOR"]
+                "scopes": ["STROKE_COLOR", "SHAPE_FILL"]
               }
             }
           },
@@ -476,7 +476,7 @@
                 "codeSyntax": {
                   "WEB": "'sd.system.color.component.outlineDim'"
                 },
-                "scopes": ["STROKE_COLOR", "FILL_COLOR"]
+                "scopes": ["STROKE_COLOR", "SHAPE_FILL"]
               }
             }
           },
