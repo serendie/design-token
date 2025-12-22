@@ -31,6 +31,22 @@
             "wh60": {
               "$value": "#FFFFFF99",
               "$type": "color"
+            },
+            "wh2": {
+              "$value": "#FFFFFF05",
+              "$type": "color"
+            },
+            "wh5": {
+              "$value": "#FFFFFF0D",
+              "$type": "color"
+            },
+            "wh20": {
+              "$value": "#FFFFFF33",
+              "$type": "color"
+            },
+            "bl60": {
+              "$value": "#00000099",
+              "$type": "color"
             }
           },
           "gray": {
