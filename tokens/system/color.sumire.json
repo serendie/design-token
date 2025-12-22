@@ -416,7 +416,7 @@
           },
           "onPositiveContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.white.1000}",
+            "$value": "{sd.reference.color.scale.black.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
