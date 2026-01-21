@@ -5,7 +5,7 @@
         "impression": {
           "primary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.chestnut.700}",
+            "$value": "{sd.reference.color.scale.blue.300}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -20,7 +20,7 @@
           },
           "onPrimary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.white.1000}",
+            "$value": "{sd.reference.color.scale.black.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -36,7 +36,7 @@
           },
           "primaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.chestnut.700}",
+            "$value": "{sd.reference.color.scale.blue.300}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -51,7 +51,7 @@
           },
           "onPrimaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.white.1000}",
+            "$value": "{sd.reference.color.scale.black.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -66,7 +66,7 @@
           },
           "secondary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.chestnut.300}",
+            "$value": "{sd.reference.color.scale.blue.800}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -81,7 +81,7 @@
           },
           "onSecondary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -97,7 +97,7 @@
           },
           "secondaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.chestnut.300}",
+            "$value": "{sd.reference.color.scale.blue.800}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -112,7 +112,7 @@
           },
           "onSecondaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -127,7 +127,7 @@
           },
           "tertiary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.beige.100}",
+            "$value": "{sd.reference.color.scale.blue.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -142,7 +142,7 @@
           },
           "onTertiary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -158,7 +158,7 @@
           },
           "tertiaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.beige.100}",
+            "$value": "{sd.reference.color.scale.blue.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -173,7 +173,7 @@
           },
           "onTertiaryContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -188,7 +188,7 @@
           },
           "notice": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.yellow.300}",
+            "$value": "{sd.reference.color.scale.yellow.400}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -203,7 +203,7 @@
           },
           "onNotice": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.white.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -219,7 +219,7 @@
           },
           "noticeContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.yellow.200}",
+            "$value": "{sd.reference.color.scale.yellow.800}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -234,7 +234,7 @@
           },
           "onNoticeContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.white.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -249,7 +249,7 @@
           },
           "noticeContainerVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.yellow.100}",
+            "$value": "{sd.reference.color.scale.yellow.900}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -264,7 +264,7 @@
           },
           "onNoticeContainerVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -279,7 +279,7 @@
           },
           "negative": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.red.600}",
+            "$value": "{sd.reference.color.scale.red.300}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -294,7 +294,7 @@
           },
           "onNegative": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.white.1000}",
+            "$value": "{sd.reference.color.scale.black.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -310,7 +310,7 @@
           },
           "negativeContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.red.200}",
+            "$value": "{sd.reference.color.scale.red.800}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -325,7 +325,7 @@
           },
           "onNegativeContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.white.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -340,7 +340,7 @@
           },
           "negativeContainerVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.red.100}",
+            "$value": "{sd.reference.color.scale.red.900}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -355,7 +355,7 @@
           },
           "onNegativeContainerVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.red.700}",
+            "$value": "{sd.reference.color.scale.red.200}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -401,7 +401,7 @@
           },
           "positiveContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.green.200}",
+            "$value": "{sd.reference.color.scale.green.700}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -416,7 +416,7 @@
           },
           "onPositiveContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -431,7 +431,7 @@
           },
           "positiveContainerVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.green.100}",
+            "$value": "{sd.reference.color.scale.green.900}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -446,7 +446,7 @@
           },
           "onPositiveContainerVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -463,7 +463,7 @@
         "component": {
           "surface": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.white.1000}",
+            "$value": "{sd.reference.color.scale.neutral.1000}",
             "$description": "bodyの背景色などサイトのベースカラー",
             "$extensions": {
               "com.figma": {
@@ -479,7 +479,7 @@
           },
           "onSurface": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.black.1000}",
+            "$value": "{sd.reference.color.scale.gray.200}",
             "$description": "surface色を地にしたオブジェクト色",
             "$extensions": {
               "com.figma": {
@@ -496,7 +496,7 @@
           },
           "onSurfaceVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.600}",
+            "$value": "{sd.reference.color.scale.gray.400}",
             "$description": "プレイスホルダーやサブテキストなどonSurfaceに強弱をつける際に利用",
             "$extensions": {
               "com.figma": {
@@ -513,7 +513,7 @@
           },
           "inverseSurface": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.1000}",
+            "$value": "{sd.reference.color.scale.gray.100}",
             "$description": "toastやtooltipなどに使用するsurfaceの反対色",
             "$extensions": {
               "com.figma": {
@@ -529,7 +529,7 @@
           },
           "inverseOnSurface": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.white.1000}",
+            "$value": "{sd.reference.color.scale.black.1000}",
             "$description": "surfaceの反対色を地にしたオブジェクト色",
             "$extensions": {
               "com.figma": {
@@ -546,7 +546,7 @@
           },
           "inversePrimary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.chestnut.100}",
+            "$value": "{sd.reference.color.scale.blue.1000}",
             "$description": "inverseSurface上でのtint colorとして使う",
             "$extensions": {
               "com.figma": {
@@ -562,7 +562,7 @@
           },
           "outlineBright": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.200}",
+            "$value": "{sd.reference.color.scale.gray.800}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -577,7 +577,7 @@
           },
           "outline": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.300}",
+            "$value": "{sd.reference.color.scale.gray.700}",
             "$description": "ボタンやフォームなどのアウトライン色",
             "$extensions": {
               "com.figma": {
@@ -608,7 +608,7 @@
           },
           "scrim": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.bl20}",
+            "$value": "{sd.reference.color.scale.transparency.bl60}",
             "$description": "modalやdrawerの背景色として使用する色",
             "$extensions": {
               "com.figma": {
@@ -624,7 +624,7 @@
           },
           "surfaceDim": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.neutral.300}",
+            "$value": "{sd.reference.color.scale.neutral.1000}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -639,7 +639,7 @@
           },
           "surfaceBright": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.white.1000}",
+            "$value": "{sd.reference.color.scale.neutral.700}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -654,7 +654,7 @@
           },
           "surfaceContainerBright": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.white.1000}",
+            "$value": "{sd.reference.color.scale.neutral.900}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -669,7 +669,7 @@
           },
           "surfaceContainer": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.neutral.100}",
+            "$value": "{sd.reference.color.scale.neutral.800}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -684,7 +684,7 @@
           },
           "surfaceContainerDim": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.neutral.200}",
+            "$value": "{sd.reference.color.scale.neutral.600}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -701,7 +701,7 @@
         "interaction": {
           "disabled": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.100}",
+            "$value": "{sd.reference.color.scale.gray.900}",
             "$description": "disabled状態のオブジェクト色",
             "$extensions": {
               "com.figma": {
@@ -716,7 +716,7 @@
           },
           "disabledOnSurface": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.gray.400}",
+            "$value": "{sd.reference.color.scale.gray.600}",
             "$description": "onSurface色をdisabled状態にするときに使用",
             "$extensions": {
               "com.figma": {
@@ -732,7 +732,7 @@
           },
           "selected": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.bl2}",
+            "$value": "{sd.reference.color.scale.transparency.wh2}",
             "$description": "オブジェクトに重ね合わせてselected状態にする",
             "$extensions": {
               "com.figma": {
@@ -749,7 +749,7 @@
           },
           "selectedSurface": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.chestnut.300}",
+            "$value": "{sd.reference.color.scale.blue.800}",
             "$description": "surface色をselected状態にするときに使用 (ListItemなど)",
             "$extensions": {
               "com.figma": {
@@ -766,7 +766,7 @@
           },
           "hovered": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.bl20}",
+            "$value": "{sd.reference.color.scale.transparency.wh20}",
             "$description": "hover状態のオブジェクトに重ねわせる半透明色",
             "$extensions": {
               "com.figma": {
@@ -783,7 +783,7 @@
           },
           "hoveredVariant": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.bl5}",
+            "$value": "{sd.reference.color.scale.transparency.wh5}",
             "$extensions": {
               "com.figma": {
                 "codeSyntax": {
@@ -799,7 +799,7 @@
           },
           "hoveredOnPrimary": {
             "$type": "color",
-            "$value": "{sd.reference.color.scale.transparency.wh60}",
+            "$value": "{sd.reference.color.scale.transparency.bl60}",
             "$description": "primaryなど有彩色を使用したhover状態のオブジェクトに重ね合わせる半透明色",
             "$extensions": {
               "com.figma": {
@@ -820,7 +820,7 @@
             "primary": {
               "01": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.200}",
+                "$value": "{sd.reference.color.scale.blue.200}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -836,7 +836,7 @@
               },
               "02": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.300}",
+                "$value": "{sd.reference.color.scale.blue.300}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -852,7 +852,7 @@
               },
               "03": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.400}",
+                "$value": "{sd.reference.color.scale.blue.400}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -868,7 +868,7 @@
               },
               "04": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.500}",
+                "$value": "{sd.reference.color.scale.blue.500}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -884,7 +884,7 @@
               },
               "05": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.600}",
+                "$value": "{sd.reference.color.scale.blue.600}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -900,7 +900,7 @@
               },
               "06": {
                 "$type": "color",
-                "$value": "{sd.reference.color.scale.chestnut.900}",
+                "$value": "{sd.reference.color.scale.blue.900}",
                 "$extensions": {
                   "com.figma": {
                     "codeSyntax": {
@@ -1420,7 +1420,7 @@
             },
             "threshold": {
               "$type": "color",
-              "$value": "{sd.reference.color.scale.chestnut.500}",
+              "$value": "{sd.reference.color.scale.blue.500}",
               "$description": "目標値や閾値を示す罫線やラベルに使用",
               "$extensions": {
                 "com.figma": {
