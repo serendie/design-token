@@ -3,6 +3,36 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
-    allow:
-      - dependency-name: "@serendie/*"
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    groups:
+      serendie:
+        patterns:
+          - "@serendie/*"
+      npm-minor-and-patch:
+        patterns:
+          - "*"
+        exclude-patterns:
+          - "@serendie/*"
+        update-types:
+          - "minor"
+          - "patch"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      actions-minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
