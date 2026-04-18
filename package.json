@@ -38,8 +38,5 @@
   },
   "files": [
     "dist"
-  ],
-  "overrides": {
-    "axios": "1.7.9"
-  }
+  ]
 }
