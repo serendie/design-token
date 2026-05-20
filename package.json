@@ -2,7 +2,7 @@
   "name": "@serendie/design-token",
   "description": "Design tokens as part of Serendie Design System by Mitsubishi Electric",
   "license": "MIT",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/serendie/design-token"
